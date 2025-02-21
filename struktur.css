@@ -1,0 +1,187 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    transition: background 0.5s ease;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; 
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.anggota-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.anggota-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 220px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+}
+
+.anggota-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.anggota-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e64a19;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+fform {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    padding: 8px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 200px; 
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 14px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px; 
+}
+
+form button:hover {
+    background-color: #e64a19;
+}
+
+form {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    padding: 8px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 200px; 
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 14px;
+}
+
+form button {
+    width: 220px; 
+    padding: 8px; 
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 14px; 
+    margin-top: 10px; }
+
+form button:hover {
+    background-color: #e64a19;
+}
+
+
+.back-button {
+    display: inline-block;
+    width: 220px; 
+    padding: 8px; 
+    background-color: #ff5722; 
+    color: white; 
+    text-align: center; 
+    border: none; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    margin-top: 10px; 
+}
+
+.back-button:hover {
+    background-color: #e64a19; 
+}

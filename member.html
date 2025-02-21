@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Anggota OSIS</title>
+    <link rel="stylesheet" href="member.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Daftar Anggota OSIS</h1>
+        <form id="memberForm">
+            <input type="text" id="name" placeholder="Nama" required>
+            <input type="text" id="class" placeholder="Kelas" required>
+            <input type="text" id="position" placeholder="Jabatan" required>
+            <button type="submit">Tambah Anggota</button>
+        </form>
+        <table id="memberTable">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>Kelas</th>
+                    <th>Jabatan</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <button id="backToDashboard">Kembali ke Dashboard</button>
+    </div>
+    <script src="member.js"></script>
+</body>
+</html>
